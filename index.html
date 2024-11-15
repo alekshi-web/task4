@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header-flex">
+        <div class="logo">
+          <img src="https://tinypic.host/images/2024/11/15/image-Photoroom.png" border="0" />
+        </div>
+        
+        <nav class="menu">
+          <ul>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#work">Work Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="intro" id="about">
+          <h1>Hello! My name is Aleksandra Shipilova</h1>
+          <h2>I'm a creative front-end developer</h2>
+          <img
+          class="profile-image"
+          src="https://tinypic.host/images/2024/11/15/image.png"
+          border="0"
+          />
+
+        </section>
+
+        <section class="education" id="education">
+          <h2>Education</h2>
+          <div class="education-list">
+            <div class="education-item">
+              <h3>ITMO University</h3>
+              <p>Bachelor's Degree - Information Systems and Technologies</p>
+              <p>2023 - 2027</p>
+            </div>
+        </section>
+
+       <section class="work-experience" id="work">
+          <h2>Work Experience</h2>
+          <div class="work-tags">
+            <span>Freelancing</span>
+            <span>Marketing</span>
+            <span>ITMO</span>
+          </div>
+          <div class="work-block">
+            <div class="work-text">
+              <h3>UI designer/content manager</h3>
+              <p>• Development of interfaces for advertising websites and content
+                processing (assessing image quality for users)<br />
+                • Content creation, generation of ideas and concepts for the
+                advertised company/service/product<br />
+                • Collecting user feedback, correcting deficiencies and
+                improving the quality of the site</p>
+                <h3>HTML/CSS layout designer</h3>
+                <p>
+                  • Website layout, creation of a unified concept using HTML/CSS
+                  <br />• Creation of a visual structure for
+                  posters/cards/flyers<br />
+                  • Website design conversion
+                </p>
+                <h3>UI designer at ITMO in the center of artificial intelligence and chemistry</h3>
+                <p>
+                  • Creation and collection of materials for event covers on the
+                  website (for various formats: website/mobile application)<br />
+                  • Development of flyers for the event, creation of covers for
+                  websites about the event
+                </p>
+            </div>
+            <div class="work-image-container">
+              <img 
+                src="https://tinypic.host/images/2024/11/15/photo_2023-07-02-16.05.46.jpeg" 
+                border="0"
+              />
+            </div>
+            
+          </div>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2>Skills</h2>
+          <div class="skills-container">
+            <div class="skill">
+              <label>React</label>
+              <progress value="10" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>Soft skill</label>
+              <progress value="98" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>Angular</label>
+              <progress value="35" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>Motion graphics</label>
+              <progress value="70" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>HTML + CSS</label>
+              <progress value="90" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>UX</label>
+              <progress value="60" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>JavaScript</label>
+              <progress value="50" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>UI</label>
+              <progress value="90" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>Python</label>
+              <progress value="100" max="100"></progress>
+            </div>
+            <div class="skill">
+              <label>3D</label>
+              <progress value="60" max="100"></progress>
+            </div>
+          </div>
+          <div class="add-skill-form">
+            <h3>Add new skill</h3>
+            <form>
+              <input type="text" placeholder="Skill name" required />
+              <input
+                type="number"
+                placeholder="Skill proficiency percentage, %"
+                min="0"
+                max="100"
+                required
+              />
+              <button type="submit">Add</button>
+            </form>
+          </div>
+        </section>
+
+        <h2>Test Results</h2>
+    <div class="container_1">
+      <div class="chart-container">
+        <div class="area"></div>
+        <div class="line"></div>
+        <div class="point point1"></div>
+        <div class="point point2"></div>
+        <div class="point point3"></div>
+        <div class="point point4"></div>
+        <div class="point point5"></div>
+      </div>
+
+      <div class="descriptions">
+        <div class="description">
+          <span class="dot dot1"></span> Extrovert 88%
+        </div>
+        <div class="description">
+          <span class="dot dot2"></span> Intuitive 84%
+        </div>
+        <div class="description">
+          <span class="dot dot3"></span> Logics 56%
+        </div>
+        <div class="description">
+          <span class="dot dot4"></span> Planning 76%
+        </div>
+        <div class="description">
+          <span class="dot dot5"></span> Cautious 76%
+        </div>
+      </div>
+    </div>
+
+        <section class="contacts" id="contacts">
+          <h2>Contacts</h2>
+          <div class="contacts-container">
+            <div class="contact-card">
+              <div class="icon">📍</div>
+              <div class="contact-info">
+                <p class="contact-title">Address</p>
+                <p>49, Kronverskaya street, Saint Petersburg</p>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="icon">📞</div>
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+                <a href="tel:+79123464465">+7 (912) 346-44-65</a>
+              </div>
+            </div>
+            <div class="contact-card">
+              <div class="icon">✉️</div>
+              <div class="contact-info">
+                <p class="contact-title">E-Mail</p>
+                <a href="mailto:shipilova0400@mail.ru">shipilova0400@mail.ru</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <footer>
+          <div class="social-media">
+            <a href="#">Instagram</a>
+            <a href="#">Github</a>
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <p>&copy; 2023 Aleksandra Shipiloa</p>
+        </footer>
+        
